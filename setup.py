@@ -7,6 +7,6 @@ setup(
     packages=['dev_aberto'],
     python_requires='>=3.6',
     platforms=['Linux', 'Windows'],
-    install_requires=['requests>=2.20.0'],
+    install_requires=['requests>=2.20.0', 'babel>=2.6.0'],
     scripts=['scripts/hello.py'],
     )
